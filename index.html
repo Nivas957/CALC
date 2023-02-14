@@ -1,0 +1,84 @@
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>CALCULATOR</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+<input class="screen" type="text" id="result" disabled /> </td>
+    <div class="calc-button-row">
+      <button class="calc-button double" onclick="clearScreen()">
+        C
+      </button>
+      <button class="calc-button" onclick="display('/')">
+        &divide;
+      </button>
+
+    </div>
+
+    <div class="calc-button-row">
+      <button class="calc-button" onclick="display('7')">
+        7
+      </button>
+      <button class="calc-button" onclick="display('8')">
+        8
+      </button>
+      <button class="calc-button" onclick="display('9')">
+        9
+      </button>
+      <button class="calc-button" onclick="display('*')">
+        &times;
+      </button>
+    </div>
+
+    <div class="calc-button-row">
+      <button class="calc-button" onclick="display('4')">
+        4
+      </button>
+      <button class="calc-button" onclick="display('5')">
+        5
+      </button>
+      <button class="calc-button" onclick="display('6')">
+        6
+      </button>
+      <button class="calc-button" onclick="display('-')">
+        &minus;
+      </button>
+    </div>
+
+    <div class="calc-button-row">
+      <button class="calc-button" onclick="display('1')">
+        1
+      </button>
+      <button class="calc-button" onclick="display('2')">
+        2
+      </button>
+      <button class="calc-button" onclick="display('3')">
+        3
+      </button>
+      <button class="calc-button" onclick="display('+')">
+        &plus;
+      </button>
+    </div>
+
+    <div class="calc-button-row">
+      <button class="calc-button triple" onclick="display('0')">
+        0
+      </button>
+      <button class="calc-button" onclick="calculate()">
+        &equals;
+      </button>
+    </div>
+
+  </div>
+
+  <script src="script.js" charset="utf-8"></script>
+
+</body>
+
+</html>
